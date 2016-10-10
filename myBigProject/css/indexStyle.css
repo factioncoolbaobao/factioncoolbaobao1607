@@ -1,0 +1,432 @@
+
+* li{
+    list-style-type: none;
+}
+
+body{
+    margin: 0;
+    padding:0;
+}
+body,html{
+	position: relative;
+    min-width: 1200px;
+    background-color: rgb(246,246,246);
+}
+#header{
+    position: absolute;
+    margin-left: -15px;
+     width: 100%;
+    height: 85px;
+    background-color:rgba(255,255,255,0);
+    z-index: 2;
+    overflow: hidden;
+}
+#yijiaLogo{
+    position: absolute;
+    left:15%;
+    top:20px;
+}
+
+#headerNavbar ul{
+    margin-left: 43%;
+}
+#headerNavbar ul li{
+   margin-top: 30px;
+}
+#headerNavbar ul li a{
+    border-radius: 0;
+    color: deepskyblue;
+}
+#headerNavbar ul li a:hover{
+    color: black;
+    border-bottom: 1px solid red;
+    background-color:rgba(255,255,255,0);
+    transition: all .5s;
+}
+#headerNavbar ul li:nth-of-type(6) a,
+#headerNavbar ul li:nth-of-type(7) a,
+#headerNavbar ul li:nth-of-type(8) a:hover{
+    border-bottom: none;
+}
+#marginleftIcon{
+    margin-left: 100px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 700px;
+
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+#lunbo{
+    padding: 0%;
+}
+#lunbo img{
+    width: 100%;
+    height: 100%;
+}
+#yijiaPhone{
+    margin-left: 43%;
+    position: absolute;
+    top: 85px;
+   display: none;
+
+}
+#yijiaPhone  li{
+    float: left;
+    margin-right: 50px;
+    list-style-type: none;
+
+}
+#yijiaPhone  li a{
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+#yijiaPhone li:nth-of-type(1) a img{
+    margin-left: 20px;
+    width: 25px;
+    height: 50px;
+}
+#yijiaPhone li:nth-of-type(2) a img{
+    margin-left: 20px;
+    width: 25px;
+    height: 50px;
+}
+#yijiaPhone li:nth-of-type(3) a img{
+margin-left: 13px;
+    width: 40px;
+    height: 50px;
+}
+#yijiaPhone li:nth-of-type(4) a img{
+    margin-left: 20px;
+    width: 28px;
+    height: 50px;
+}
+#yijiaStore{
+    margin-left: 30%;
+    display: none;
+}
+#yijiaStore li{
+    list-style-type: none;
+    float: left;
+}
+#yijiaStore li:nth-of-type(1){
+    margin-right: 50px;
+}
+#yijiaStore li:nth-of-type(2){
+    margin-right: 30px;
+}
+#yijiaStore li:nth-of-type(3){
+    margin-right: 50px;
+}
+#yijiaStore li:nth-of-type(4){
+    margin-right: 40px;
+}
+#yijiaStore li:nth-of-type(5){
+    margin-right: 40px;
+}
+#yijiaStore li:nth-of-type(6){
+    margin-right: 50px;
+}
+#yijiaStore li:nth-of-type(7){
+    margin-right: 50px;
+}
+#yijiaStore li a{
+    text-decoration: none;
+}
+#yijiaStore li a span{
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background: url("../img/yijiastore.png");
+}
+#yijiaStore li:nth-of-type(1) a span{
+  background-position: 0 -451px;
+    background-color: lightgray;
+    margin-left: -6px;
+}
+#yijiaStore li:nth-of-type(2) a span{
+    background-position:0 -41px;
+    background-color: lightgray;
+    margin-left: 8px;
+}
+#yijiaStore li:nth-of-type(3) a span{
+    background-position:0 -287px;
+    background-color: lightgray;
+    margin-left: 11px;
+}
+#yijiaStore li:nth-of-type(4) a span{
+    background-position:0 -533px;
+    background-color: lightgray;
+    margin-left: -6px;
+}
+#yijiaStore li:nth-of-type(5) a span{
+    background-position:0 -205px;
+    background-color: lightgray;
+    margin-left:23px;
+}
+#yijiaStore li:nth-of-type(6) a span{
+    background-position:0 -123px;
+    background-color: lightgray;
+    margin-left: -6px;
+}
+#yijiaStore li:nth-of-type(7) a span{
+    background-position:0 -369px;
+    background-color: lightgray;
+}
+#yijiaStore li a{
+    color: lightskyblue;
+}
+#yijiaStore li:hover a{
+    color: red;
+    transition: all .5s;
+}
+#yijiaStore li:nth-of-type(1):hover a span{
+    background-position:0 -410px;
+    background-color: lightgray;
+    transition: all .5s;
+}
+#yijiaStore li:nth-of-type(2):hover a span{
+    background-position:0 0;
+    background-color: lightgray;
+    transition: all .5s;
+}
+#yijiaStore li:nth-of-type(3):hover a span{
+    background-position:0 -246px;
+    background-color: lightgray;
+    transition: all .5s;
+}
+#yijiaStore li:nth-of-type(4):hover a span{
+    background-position:0 -492px;
+    background-color: lightgray;
+    transition: all .5s;
+}
+#yijiaStore li:nth-of-type(5):hover a span{
+    background-position:0 -164px;
+    background-color: lightgray;
+    transition: all .5s;
+}
+#yijiaStore li:nth-of-type(6):hover a span{
+    background-position:0 -82px;
+    background-color: lightgray;
+    transition: all .5s;
+}
+#yijiaStore li:nth-of-type(7):hover a span{
+    background-position:0 -328px;
+    background-color: lightgray;
+    transition: all .5s;
+}
+#yijia1Btn{
+    position: absolute;
+    top: 520px;;
+    left:82%;
+    color: black;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+#yijia1Btn:hover{
+    background-color: black;
+    color: white;
+    transition: all .2s;
+}
+#yijia2Btn{
+    position: absolute;
+    top: 580px;;
+    left:6%;
+    color: white;
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+#yijia2Btn:hover{
+    background-color: white;
+    color: goldenrod;
+    transition: all .4s;
+}
+#yijiaXBtn{
+    position: absolute;
+    top: 550px;;
+    left:81%;
+    color: black;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+#yijiaXBtn:hover{
+    background-color: rgb(8,8,8);
+    color:white;
+    transition: all .4s;
+}
+#yijia3Btn{
+    position: absolute;
+    top: 380px;;
+    left:19.5%;
+    color: black;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+#yijia3Btn:hover{
+    background-color: rgb(8,8,8);
+    color: white;
+    transition: all .4s;
+}
+#picList a{
+    height: 300px;
+    text-decoration: none;
+    font-size: 25px;
+}
+#picList p{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#picList a:nth-of-type(1){
+    color: white;
+    background: url("../img/picList1.jpg") no-repeat;
+}
+#picList a:nth-of-type(2){
+    color: white;
+    background: url("../img/picList2.jpg") no-repeat;
+}
+#picList a:nth-of-type(3){
+    color: rgb(8,8,8);
+    background: url("../img/picList3.jpg") no-repeat;
+}
+#everydayPhoto div{
+    text-align: center;
+    line-height: 380px;
+    font-size: 50px;
+    color: white;
+    height: 500px;
+    background: url("../img/EveryDayPhoto.jpg")no-repeat;
+    background-size: 100% 100%;
+}
+#everydayPhoto a{
+    position: relative;
+    left: -230px;;
+    top: 80px;
+    font-size: 20px;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 2px solid white;
+}
+#everydayPhoto a:hover{
+    background-color:rgba(255,255,255,.8);
+    color: rgb(8,8,8);
+    transition: all .5s;
+}
+
+#picWindows{
+    margin-left: 18%;
+}
+
+#picWindows a{
+    text-decoration: none;
+    color: rgb(8,8,8);
+}
+#picWindows a:hover{
+   transform: translateY(-5px);
+    box-shadow:0 10px 20px 10px lightgray;
+    transition: all .2s;
+}
+.thumbnail p{
+    font-size: 11px;
+}
+#footerList{
+    height: 300px;
+    background-color: white;
+}
+#footerIconList{
+    height: 120px;
+    border-bottom: 1px solid rgb(226,226,226);
+}
+#footerIconList li:nth-of-type(1){
+    margin-left: 18%;
+}
+#footerIconList li{
+    list-style-type: none;
+    float: left;
+    margin-right: 9%;
+}
+#footerIconList li a{
+    text-decoration: none;
+}
+#footerIconList li:nth-of-type(1) a span{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-left: 23px;
+    background: url("../img/footerIcons.png")0 -80px;
+}
+#footerIconList li:nth-of-type(2) a span{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    background: url("../img/footerIcons.png")0 -240px;
+}
+#footerIconList li:nth-of-type(3) a span{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    background: url("../img/footerIcons.png")0 0;
+}
+#footerIconList li:nth-of-type(4) a span{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    background: url("../img/footerIcons.png")0 -160px;
+}
+#dataList ul:nth-of-type(1){
+    margin-left: 18%;
+}
+#dataList ul{
+    float: left;
+    margin-right: 10%;
+}
+#dataList ul li{
+    margin-top: 8px;
+}
+#dataList ul li h5{
+    font-size: 20px;
+}
+#dataList ul li a{
+    font-size: 12px;
+    text-decoration: none;
+}
+#contactNumber a{
+text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 82px;
+    line-height: 35px;
+}
+#contactNumber a:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: all .5s;
+}
